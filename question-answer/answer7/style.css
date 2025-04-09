@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+.container {
+  background: url('https://images.stockcake.com/public/9/1/0/910635e9-bf2e-4164-bc3a-6b3b5040b725_large/moonlit-coastal-road-stockcake.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px 40px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  width: 320px;
+  text-align: center;
+  color: white;
+}
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.input-box {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+.input-box i {
+  margin-right: 10px;
+  color: white;
+}
+.input-box input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  width: 100%;
+  font-size: 16px;
+}
+.input-box input::placeholder {
+  color: #ddd;
+  opacity: 1; 
+}
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all .3s;
+}
+button[type="submit"]:hover {
+  background-color: #fff;
+  color: #3b5998;
+}
+.or {
+  margin: 15px 0;
+  color: #ccc;
+}
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.social-buttons button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.facebook {
+  background-color: #3b5998;
+}
+.google {
+  background-color: #db4437;
+}

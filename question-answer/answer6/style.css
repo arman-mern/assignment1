@@ -1,0 +1,68 @@
+body {
+  background-color: #1e1e2f;
+  color: #ccc;
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+.container{
+  width: 40%;
+  margin: 0px auto;
+}
+.timeline {
+  position: relative;
+  margin-left: 0px;
+  border-left: 3px solid #333;
+}
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 40px;
+}
+.timeline-icon {
+  position: absolute;
+  left: -20px;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #999;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+.timeline-content {
+  background-color: #2e2e3e;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+}
+.side-arrow{
+  position: absolute;
+  font-size: 44px;
+  left: 20px;
+  top: 0px;
+  color: #2e2e3e;
+}
+.timeline-content .badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.timeline-content small {
+  display: block;
+  margin-top: 10px;
+  color: #888;
+}
+.primary {
+  background-color: #2196F3;
+}
+.danger {
+  background-color: #e91e63;
+}
+.success {
+  background-color: #4caf50;
+}
